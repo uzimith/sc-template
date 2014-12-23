@@ -41,7 +41,7 @@ end
 set :css_dir, 'style'
 set :js_dir, 'js'
 set :images_dir, 'images'
-set :slim, { pretty: true, sort_attrs: false, format: :html }
+set :slim, { pretty: true, sort_attrs: false, format: :html5 }
 
 
 configure :build do
