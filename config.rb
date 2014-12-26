@@ -8,6 +8,7 @@ compass_config do |config|
   config.line_comments = false
 end
 require 'compass-normalize'
+require 'breakpoint'
 
 ###
 # Sprockets

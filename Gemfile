@@ -7,6 +7,7 @@ gem "middleman", "~>3.3.7"
 gem "slim"
 gem "compass"
 gem "compass-normalize"
+gem "breakpoint"
 
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
