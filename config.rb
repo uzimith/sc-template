@@ -46,8 +46,8 @@ end
 set :css_dir, 'style'
 set :js_dir, 'js'
 set :images_dir, 'images'
-set :slim, { pretty: true, sort_attrs: false, format: :html5 }
-
+set :slim, { pretty: true, sort_attrs: false, format: :html }
+Tilt::CoffeeScriptTemplate.default_bare = true
 
 configure :build do
   # activate :minify_css
