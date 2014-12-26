@@ -14,7 +14,7 @@ require 'breakpoint'
 # Sprockets
 ###
 
-sprockets.append_path '../bower_components'
+sprockets.append_path 'components'
 
 ###
 # Page options, layouts, aliases and proxies
@@ -22,6 +22,10 @@ sprockets.append_path '../bower_components'
 
 with_layout :layout do
   page "/*", :layout => "layout"
+end
+
+with_layout :layout do
+  page "/elements/*", :layout => false
 end
 
 ###
