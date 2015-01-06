@@ -9,6 +9,7 @@ compass_config do |config|
 end
 require 'compass-normalize'
 require 'breakpoint'
+require 'font-awesome-sass'
 
 ###
 # Sprockets
@@ -37,6 +38,11 @@ helpers do
     I18n.locale.to_s + "/" + path
   end
 end
+
+set :markdown_engine, :redcarpet
+set :markdown, tables: true, autolink: true, gh_blockcode: true, fenced_code_blocks: true, with_toc_data: true, smartypants: true, fenced_code_blocks: true
+activate :syntax, :line_numbers => true
+activate :rouge_syntax
 
 activate :automatic_image_sizes
 configure :development do
