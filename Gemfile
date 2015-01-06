@@ -15,7 +15,6 @@ gem 'font-awesome-sass', '~> 4.2.0'
 
 gem "redcarpet", "~> 3.0.0"
 gem 'middleman-syntax'
-gem 'middleman-rouge'
 
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
