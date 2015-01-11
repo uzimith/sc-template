@@ -15,7 +15,9 @@ require 'font-awesome-sass'
 # Sprockets
 ###
 
-sprockets.append_path 'components'
+after_configuration do
+  sprockets.append_path "#{root}/components/"
+end
 
 ###
 # Page options, layouts, aliases and proxies
