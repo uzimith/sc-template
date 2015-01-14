@@ -5,7 +5,6 @@ source 'https://rubygems.org'
 gem "middleman", "~>3.3.7"
 gem "middleman-deploy"
 gem 'middleman-autoprefixer'
-gem "middleman-react"
 
 gem "slim"
 gem "compass"
